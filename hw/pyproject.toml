@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qaguru-python-6-19"
+version = "0.1.0"
+description = ""
+authors = ["kzaidova <katerina00.00@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "^2.0.0rc4"
+pytest = "^7.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.0a7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
